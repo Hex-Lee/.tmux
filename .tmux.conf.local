@@ -270,3 +270,6 @@ tmux_conf_copy_to_os_clipboard=false
 bind -nr M-q previous-window
 bind -nr M-w next-window
 bind -r C-a last-window
+bind-key -r C-Left swap-window -t -1
+bind-key -r C-Right swap-window -t +1
+set-option -g default-shell /mnt/lustre/cm/shared/global/src/misc/zsh/5.5.1/bin/zsh
