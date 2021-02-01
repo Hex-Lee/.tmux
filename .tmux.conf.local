@@ -269,3 +269,7 @@ tmux_conf_copy_to_os_clipboard=false
 bind -nr M-q previous-window
 bind -nr M-w next-window
 bind -r C-a last-window
+bind-key -r C-q swap-window -t -1
+bind-key -r C-w swap-window -t +1
+#set-option -g default-shell zsh
+set-option -g allow-rename off
